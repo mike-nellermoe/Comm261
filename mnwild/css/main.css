@@ -1,0 +1,142 @@
+/* green   #015836
+red     #BF2B37
+tan     #EEE3C6
+yellow  #EFB410 */
+
+
+.header {
+    box-sizing: border-box;
+    background-color: #015836;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    border-bottom: #EEE3C6 solid 10px;
+    -webkit-box-shadow: 0px 4px 2px -2px #BF2B37;
+    -moz-box-shadow:  0px 4px 2px -2px #BF2B37;
+    box-shadow:  0px 4px 2px -2px #BF2B37;
+  }
+
+  .header h1 {
+      padding-left: 30px;
+      color:#EEE3C6;
+      font-weight: bold;
+  }
+
+  body {
+      background-image: url('../img/background.jpg');
+      background-size: cover;
+
+      font-family: Arial, sans-serif;
+  }
+
+  .logo {
+    text-align: center;
+    width: 120px;
+    height: 120px;
+  }
+
+  .menu {
+      flex: 1;
+      text-align: right;
+  }
+
+  .menu a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #BF2B37;
+      color:#EEE3C6;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      border-radius: 4px;
+      padding: 12px;
+  }
+
+
+  .menu a:hover {
+    background-color: #EFB410;
+    color: #015836;
+  }
+  
+
+   .menu a:active {
+    background-color: #EFB410;
+    color: #015836;
+  }
+
+  /*.menu a:visted {
+    background-color: #BF2B37;
+    color:black;
+  } */
+  
+  .menu a:focus {
+    background-color: black;
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .home-images, .videos, #intro {
+    box-sizing: border-box;
+    background-color: white;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity:90%
+  }
+
+  #intro {
+      font-size: 20px;
+  }
+  #intro p {
+      width: 60%;
+  }
+
+  .home-images #pic1 {
+    height: 500px;
+    padding: 20px;
+  }
+
+  .home-images #pic2 { 
+    height: 500px;
+    padding: 20px;
+  }
+
+  .home-images #pic3 { 
+    height: 500px;
+    padding: 20px;
+  }
+
+  iframe {
+      padding: 20px 40px;
+  }
+
+  video {
+    width: 560px;
+    height: 315px;
+    padding: 20px 40px; 
+  }
+
+  .footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100px;
+    background-color: #015836;
+    color:#EEE3C6;
+    text-align: center;
+    padding: 5px;
+    border-top: #EEE3C6 solid 10px;
+    -webkit-box-shadow: 0px -4px 2px -2px  #BF2B37;
+    -moz-box-shadow:  0px -4px 2px -2px  #BF2B37;
+    box-shadow:  0px -4px 2px -2px  #BF2B37;
+
+  }
+  
