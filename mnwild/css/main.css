@@ -102,27 +102,32 @@ yellow  #EFB410 */
 
   .home-images #pic1 {
     height: 500px;
-    padding: 20px;
+    margin: 20px;
+    border: black solid 1px;
   }
 
   .home-images #pic2 { 
     height: 500px;
-    padding: 20px;
+    margin: 20px;
+    border: black solid 1px;
   }
 
   .home-images #pic3 { 
     height: 500px;
-    padding: 20px;
+    margin: 20px;
+    border: black solid 1px;
   }
 
   iframe {
-      padding: 20px 40px;
+      margin: 20px 40px;
+      border: black solid 1px;
   }
 
   video {
     width: 560px;
     height: 315px;
-    padding: 20px 40px; 
+    margin: 20px 40px;
+    border: black solid 1px; 
   }
 
   .footer {
