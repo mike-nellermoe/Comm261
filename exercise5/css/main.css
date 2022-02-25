@@ -1,0 +1,165 @@
+/* 
+#bodyBreakfast {
+    background: url('img/breakfast-lg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.header {
+    background-color: lightcoral;
+    color: black;
+    padding: 5px;
+    padding-left: 15px;
+    overflow: auto;
+}
+.header img {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.header h1 {
+    position: left; 
+}
+
+.current {
+    background-color: #111;
+}
+
+h3 {
+    text-align:center;
+    padding: 0 200px 0 200px;
+}
+
+p {
+    text-align:center;
+    padding: 0 200px 0 200px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+p::first-letter {
+    font-size: 30px;
+}
+img {
+    height: 200px;
+    width: 350px;
+    padding: 10px 20px 10px 20px;
+}
+#breakfast {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#breakfast, #lunch, #dinner {
+    text-align: center;
+    font-weight: bold;
+}
+#breakfast > h2, #lunch > h2, #dinner > h2 {
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+#dinner {
+    position: fixed;
+    right: 42%;
+}
+
+#bgVid {
+   position: fixed;
+   top:150px;
+   right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#lunch-body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#full-width {
+    margin-left: -33.33%;
+    margin-right: -33.33%
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: lightcoral;
+    color: black;
+    padding: 1px;
+}
+
+/* nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+} */
+/* nav ul li {
+   float: left;
+} */
+/* nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+} */
+
+/* nav ul li a:hover {
+    background-color: #111;
+} */
+
+
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+
+nav ul li {
+    background: #333;
+    width: 170px;
+    border: 2px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-family: big john;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: crimson;
+}
+
+nav ul ul {
+    display:none;
+}
+
+nav ul li:hover > ul {
+    display:block;
+}
+
+nav ul ul ul {
+    margin-left: 170px;
+    top:0;
+    position: absolute;
+}
