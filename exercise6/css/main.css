@@ -1,0 +1,230 @@
+/* 
+#bodyBreakfast {
+    background: url('img/breakfast-lg.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover;
+    background-size: cover;
+} */
+
+.header {
+    background-color: lightcoral;
+    color: black;
+    padding: 5px;
+    padding-left: 15px;
+    overflow: auto;
+}
+.header img {
+    float: left;
+    width: 70px;
+    height: 70px;
+}
+.header h1 {
+    position: left; 
+}
+
+.current {
+    background-color: #111;
+}
+
+h3 {
+    text-align:center;
+    padding: 0 200px 0 200px;
+}
+
+p {
+    text-align:center;
+    padding: 0 200px 0 200px;
+    font-size: 20px;
+    font-weight: bold; 
+}
+p::first-letter {
+    font-size: 30px;
+}
+img {
+    height: 200px;
+    width: 350px;
+    padding: 10px 20px 10px 20px;
+}
+#breakfast {
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#breakfast, #lunch, #dinner {
+    text-align: center;
+    font-weight: bold;
+}
+#breakfast > h2, #lunch > h2, #dinner > h2 {
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+#dinner {
+    position: fixed;
+    right: 42%;
+}
+
+#bgVid {
+   position: fixed;
+   top:150px;
+   right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#lunch-body {
+    width: 60%;
+    margin: 0 auto;
+}
+
+#full-width {
+    margin-left: -33.33%;
+    margin-right: -33.33%
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    background-color: lightcoral;
+    color: black;
+    padding: 1px;
+}
+
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 2%;
+}
+
+
+
+
+nav ul li {
+    background: #333;
+    width: 170px;
+    border: 2px solid #fff;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    font-family: big john;
+
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li:hover{
+    background: crimson;
+}
+
+nav ul ul {
+    display:none;
+}
+
+nav ul li:hover > ul {
+    display:block;
+}
+
+nav ul ul ul {
+    margin-left: 170px;
+    top:0;
+    position: absolute;
+}
+
+
+
+
+.animate-pop-in {
+    animation: pop-in .6s cubic-bezier(0,.9, .3, 1.2) forwards;
+    opacity: 0;
+}
+
+#header-img{
+    animation-delay: .8s;
+}
+
+#header-text {
+    animation-delay: 1s;
+}
+
+@keyframes fade-slide-down {
+    0% {
+        opacity: 0;
+        transform: translateY(-4rem);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+@keyframes pop-in {
+    0%{
+        opacity: 0;
+        transform: translateY(-4rem) scale(.8);
+    }
+    100%{
+        opacity: 1;
+        transform: none;
+    }
+}
+
+#divButton {
+    padding-top: 10px;
+    text-align: center;
+}
+
+#starwars {
+    animation-delay: 1s;
+    background: #e5ac8e;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0.5em;
+    padding: 0 1em;
+    position: relative;
+    overflow: hidden;   
+    line-height: 32px;
+   }
+
+#starwars::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    bottom: -50%;
+    left: -50%;
+    background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+    transform: rotateZ(60deg) translate(-5em, 7.5em);
+}
+
+#starwars {
+    background: crimson;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0.5em;
+    padding: 0 1em;
+    position: relative;
+    line-height: 32px;
+  }
+
+  #starwars:hover::after, #starwars:focus::after {
+    animation: sheen 1s forwards;
+  }
+
+  @keyframes sheen {
+    100% {
+      transform: rotateZ(60deg) translate(1em, -9em);
+    }
+  }
